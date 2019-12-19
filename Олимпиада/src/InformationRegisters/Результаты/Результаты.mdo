@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3cacc31-1cd7-42ba-846d-bcf63137de60">
+  <producedTypes>
+    <selectionType typeId="454eeb71-c414-4d11-8572-47d9c981d3eb" valueTypeId="d69ca9eb-63b1-46a1-8d10-b3d278ed0b34"/>
+    <listType typeId="0aa78a64-4f78-4cd1-a447-b2e1cd4bbd7d" valueTypeId="ad8c22fd-9348-452b-8143-33546863db83"/>
+    <managerType typeId="61c7242e-d11e-4e64-8d63-ac4f21ee67c8" valueTypeId="9030485e-dc17-41e7-90c9-e0a08a222149"/>
+    <recordSetType typeId="594f0422-a43f-4eef-bec2-26c4f20c4603" valueTypeId="a146b006-1427-471d-b3c2-f1a5f1c26a0e"/>
+    <recordKeyType typeId="e5a33d77-6f33-4800-badc-a1fccd0d9608" valueTypeId="fdb49d13-c8b0-462c-a56c-d3ce9ae1175f"/>
+    <recordType typeId="8c2717bc-6491-4d12-b257-eced0d0b3deb" valueTypeId="cfe36ea7-ad01-48b2-9563-6340b3f58fdc"/>
+    <recordManagerType typeId="ccbddc3f-1b75-4478-a81f-2360372a54f0" valueTypeId="420a42d4-5160-4d07-9ed2-5be6d5a45021"/>
+  </producedTypes>
+  <name>Результаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ca790ee1-bac4-4c6d-bad8-ff3248dbfb96">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="22b9af6c-601f-4a79-b6a6-c8f8dd8cee03">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="95705c26-fcd7-48d1-bde9-d4c2e50ec97e">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="452c1b1a-cfa1-45e6-954c-64966a4840fb">
+    <name>ИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="77b46bc0-ecd7-4d7a-aea3-7115611835f3">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВопросыКОлимпиаде</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

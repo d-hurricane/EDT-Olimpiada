@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43a24c26-99c6-4f1f-8871-74fbd3ef38f8">
+  <producedTypes>
+    <objectType typeId="4e0989cd-bd26-40a3-b9ee-24892128c087" valueTypeId="f50f67ef-012e-4298-b3c3-874105279692"/>
+    <managerType typeId="f73bb3d0-5cf6-4183-8c3e-7755328f92d0" valueTypeId="749040dc-be9d-45b4-8dcd-c33f3787ef3c"/>
+  </producedTypes>
+  <name>ТестированиеРазработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование разработчиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестированиеРазработчиков.Form.Форма</defaultForm>
+  <forms uuid="3091940b-e757-4a1d-8262-a2cf52cfad6a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfbff374-3b7a-4c44-b83c-0325ebe28862">
+    <name>ФормаТекстаHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма текста HTML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b808d142-937e-47e4-8c18-2ff2464c3611">
+    <name>Вопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

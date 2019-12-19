@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8e25286-d72c-4b75-a2db-fa45e2a647a6">
+  <name>Олимпиада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Олимпиада</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3d38b76d-8efa-4e45-9251-967e7ef463a9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="42bd3ea3-8f42-46f0-ae52-011fac17291d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8ceec7ce-1049-4f51-adff-2bdf785cc9fc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ca2ef187-d591-4119-bba7-1488cad7e307"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="727cdd8f-2b7d-4b20-b42f-111717d9d4e6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="58f826ba-ee54-4564-ba97-dae9a37b8051"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Организатор</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="a6149428-9a5a-424c-9768-4fcc936cdc58">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Олимпиада</subsystems>
+  <roles>Role.Организатор</roles>
+  <roles>Role.Участник</roles>
+  <commonForms>CommonForm.ФормаОрганизатора</commonForms>
+  <catalogs>Catalog.ВопросыКОлимпиаде</catalogs>
+  <reports>Report.РезультатыОлимпиады</reports>
+  <dataProcessors>DataProcessor.ТестированиеРазработчиков</dataProcessors>
+  <informationRegisters>InformationRegister.Результаты</informationRegisters>
+</mdclass:Configuration>

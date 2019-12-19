@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69dc8e48-d367-4cd6-8253-a7feec1e1304">
+  <name>Олимпиада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Олимпиада</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВопросыКОлимпиаде</content>
+  <content>Role.Организатор</content>
+  <content>Role.Участник</content>
+  <content>InformationRegister.Результаты</content>
+  <content>Report.РезультатыОлимпиады</content>
+  <content>CommonForm.ФормаОрганизатора</content>
+</mdclass:Subsystem>

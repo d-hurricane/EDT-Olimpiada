@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fe12577-4752-4208-ac8b-9c6e811166c2">
+  <producedTypes>
+    <objectType typeId="52967af2-341f-4507-8c49-041c9a56a5b5" valueTypeId="61b57be7-112a-46e1-8fb9-c840e1f38f85"/>
+    <managerType typeId="96407f69-5f0c-4c19-b506-4ddcc7b38ab6" valueTypeId="72245f84-1730-4378-be15-f8c5c7007387"/>
+  </producedTypes>
+  <name>РезультатыОлимпиады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты олимпиады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РезультатыОлимпиады.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="32d8b3fa-7148-40b4-9b00-74adb2bb841d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
