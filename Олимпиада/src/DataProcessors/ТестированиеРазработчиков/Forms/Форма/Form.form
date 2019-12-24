@@ -594,162 +594,6 @@
               <radioButtonsType>RadioButtons</radioButtonsType>
             </extInfo>
           </items>
-          <items xsi:type="form:FormGroup">
-            <name>ГруппаВариантаСОшибкой</name>
-            <id>227</id>
-            <items xsi:type="form:FormField">
-              <name>ВыбранныйОтветОткрытый</name>
-              <id>171</id>
-              <title>
-                <key>ru</key>
-                <value>Варианты ответов</value>
-              </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ВыбранныйОтвет</segments>
-                </paths>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <extendedTooltip>
-                <name>ВыбранныйОтветОшибкаВыполненияРасширеннаяПодсказка</name>
-                <id>173</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ВыбранныйОтветОшибкаВыполненияКонтекстноеМеню</name>
-                <id>172</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>RadioButtonField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-                <choiceList>
-                  <presentation>
-                    <key>ru</key>
-                    <value>Ошибка выполнения</value>
-                  </presentation>
-                  <value xsi:type="core:NumberValue">
-                    <value>0</value>
-                  </value>
-                </choiceList>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
-              <name>КомментарийКОтвету</name>
-              <id>168</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>КомментарийКОтвету</segments>
-                </paths>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <extendedTooltip>
-                <name>КомментарийКОтветуРасширеннаяПодсказка</name>
-                <id>170</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>КомментарийКОтветуКонтекстноеМеню</name>
-                <id>169</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-                <inputHint>
-                  <key>ru</key>
-                  <value>Комментарий</value>
-                </inputHint>
-              </extInfo>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа варианта с ошибкой</value>
-            </title>
-            <toolTip>
-              <key>ru</key>
-              <value>Группа варианта с ошибкой</value>
-            </toolTip>
-            <extendedTooltip>
-              <name>ГруппаВариантаСОшибкойРасширеннаяПодсказка</name>
-              <id>228</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualGroup</type>
-            <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
-              <showLeftMargin>true</showLeftMargin>
-              <united>true</united>
-              <throughAlign>Auto</throughAlign>
-              <currentRowUse>DontUse</currentRowUse>
-            </extInfo>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2583,24 +2427,6 @@
       </edit>
     </columns>
     <columns>
-      <name>КомментарийКОтвету</name>
-      <title>
-        <key>ru</key>
-        <value>Комментарий к ответу</value>
-      </title>
-      <id>5</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>ВремяОтвета</name>
       <title>
         <key>ru</key>
@@ -2775,42 +2601,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КомментарийКОтвету</name>
-    <title>
-      <key>ru</key>
-      <value>Комментарий к ответу</value>
-    </title>
-    <id>9</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВремяПереходаКВопросу</name>
-    <title>
-      <key>ru</key>
-      <value>Время перехода к вопросу</value>
-    </title>
-    <id>10</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ВремяНачалаТестирования</name>
     <title>
       <key>ru</key>
@@ -2878,6 +2668,26 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>МоментПереходаКВопросу</name>
+    <title>
+      <key>ru</key>
+      <value>Момент перехода к вопросу</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

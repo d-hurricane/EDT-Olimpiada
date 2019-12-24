@@ -31,6 +31,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Олимпиада</subsystems>
+  <commonPictures>CommonPicture.СтатусыОтветов</commonPictures>
   <roles>Role.Организатор</roles>
   <roles>Role.Участник</roles>
   <commonForms>CommonForm.ФормаОрганизатора</commonForms>

@@ -35,26 +35,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="22b9af6c-601f-4a79-b6a6-c8f8dd8cee03">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>255</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-  </resources>
   <attributes uuid="95705c26-fcd7-48d1-bde9-d4c2e50ec97e">
     <name>ИмяПользователя</name>
     <synonym>
@@ -74,6 +54,52 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+  </attributes>
+  <attributes uuid="e9a769a9-c299-441b-8a48-519e1851b3fa">
+    <name>ТекстОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fdca15c-99b9-40cd-9858-3bd1aab6fc56">
+    <name>ПравильныйОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правильный ответ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f86eee54-45e7-4626-9ea3-1a067e27cd20">
+    <name>ТекстПравильногоОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст правильного ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <dimensions uuid="452c1b1a-cfa1-45e6-954c-64966a4840fb">
     <name>ИдентификаторПользователя</name>

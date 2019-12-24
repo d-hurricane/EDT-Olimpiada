@@ -13,4 +13,5 @@
   <content>InformationRegister.Результаты</content>
   <content>Report.РезультатыОлимпиады</content>
   <content>CommonForm.ФормаОрганизатора</content>
+  <content>CommonPicture.СтатусыОтветов</content>
 </mdclass:Subsystem>

@@ -29,12 +29,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="b808d142-937e-47e4-8c18-2ff2464c3611">
-    <name>Вопросы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вопросы</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
 </mdclass:DataProcessor>
