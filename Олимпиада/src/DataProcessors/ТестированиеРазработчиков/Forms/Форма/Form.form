@@ -778,115 +778,12 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <items xsi:type="form:FormField">
-            <name>ТаблицаВопросовСтатус</name>
-            <id>219</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаВопросов.Статус</segments>
-              </paths>
-            </dataPath>
-            <titleLocation>None</titleLocation>
-            <extendedTooltip>
-              <name>ТаблицаВопросовСтатусРасширеннаяПодсказка</name>
-              <id>221</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаВопросовСтатусКонтекстноеМеню</name>
-              <id>220</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>PictureField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:ImageFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <verticalStretch>true</verticalStretch>
-              <valuesPicture xsi:type="form:FormPicture"/>
-              <fileDragMode>AsFileRef</fileDragMode>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаВопросовНомерСтроки</name>
-            <id>216</id>
+            <name>ТаблицаВопросовЗаголовок</name>
+            <id>192</id>
             <title>
               <key>ru</key>
-              <value>№</value>
+              <value>Вопрос</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаВопросов.НомерСтроки</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>ТаблицаВопросовНомерСтрокиРасширеннаяПодсказка</name>
-              <id>218</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаВопросовНомерСтрокиКонтекстноеМеню</name>
-              <id>217</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <width>3</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаВопросовТема</name>
-            <id>192</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -944,10 +841,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаВопросов.ВыбранныйОтвет</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаВопросов.ТекстВыбранногоОтвета</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаВопросовВыбранныйОтветРасширеннаяПодсказка</name>
@@ -980,7 +875,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>10</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
             </extInfo>
           </items>
@@ -996,10 +891,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаВопросов.ПравильныйОтвет</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаВопросов.ТекстПравильногоОтвета</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаВопросовПравильныйОтветРасширеннаяПодсказка</name>
@@ -1032,7 +925,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>10</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
             </extInfo>
           </items>
@@ -1048,10 +941,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТаблицаВопросов.ВремяОтвета</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТаблицаВопросов.ВремыОтветаВСекундах</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТаблицаВопросовВремяОтветаРасширеннаяПодсказка</name>
@@ -1078,18 +969,14 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <maxWidth>10</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <autoCommandBar>
@@ -1245,6 +1132,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <representation>Tree</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -1264,6 +1152,12 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <rowPictureDataPath xsi:type="form:DataPath">
+            <segments>ТаблицаВопросов.Статус</segments>
+          </rowPictureDataPath>
+          <rowsPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.СтатусыОтветов</picture>
+          </rowsPicture>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <visible>true</visible>
@@ -2345,7 +2239,7 @@
     </title>
     <id>6</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>ValueTree</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2456,8 +2350,7 @@
       <valueType>
         <types>Number</types>
         <numberQualifiers>
-          <precision>1</precision>
-          <nonNegative>true</nonNegative>
+          <precision>2</precision>
         </numberQualifiers>
       </valueType>
       <view>
@@ -2533,6 +2426,63 @@
       <id>15</id>
       <valueType>
         <types>CatalogRef.ВопросыКОлимпиаде</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТекстВыбранногоОтвета</name>
+      <title>
+        <key>ru</key>
+        <value>Текст выбранного ответа</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТекстПравильногоОтвета</name>
+      <title>
+        <key>ru</key>
+        <value>Текст правильного ответа</value>
+      </title>
+      <id>21</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВремыОтветаВСекундах</name>
+      <title>
+        <key>ru</key>
+        <value>Времы ответа в секундах</value>
+      </title>
+      <id>22</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>11</precision>
+          <scale>1</scale>
+        </numberQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -2687,6 +2637,46 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>20</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПорядковыйНомерРубрики</name>
+    <title>
+      <key>ru</key>
+      <value>Порядковый номер рубрики</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоВопросов</name>
+    <title>
+      <key>ru</key>
+      <value>Общее количество вопросов</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
       </numberQualifiers>
     </valueType>
     <view>

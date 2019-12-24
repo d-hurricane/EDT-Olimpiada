@@ -35,6 +35,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="1f8c9e32-32b6-44eb-865f-050364e25016">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время, мс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
   <attributes uuid="95705c26-fcd7-48d1-bde9-d4c2e50ec97e">
     <name>ИмяПользователя</name>
     <synonym>
