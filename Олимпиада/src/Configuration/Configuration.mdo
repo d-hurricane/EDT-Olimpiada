@@ -34,6 +34,7 @@
   <commonPictures>CommonPicture.СтатусыОтветов</commonPictures>
   <roles>Role.Организатор</roles>
   <roles>Role.Участник</roles>
+  <commonModules>CommonModule.ФорматированиеКода</commonModules>
   <commonForms>CommonForm.ФормаОрганизатора</commonForms>
   <catalogs>Catalog.ВопросыКОлимпиаде</catalogs>
   <reports>Report.РезультатыОлимпиады</reports>
