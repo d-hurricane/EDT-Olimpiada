@@ -4676,6 +4676,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЗавершитьТестированиеБезусловно</name>
+    <title>
+      <key>ru</key>
+      <value>Завершить тестирование безусловно</value>
+    </title>
+    <id>41</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>КомандаДалее</name>
     <title>
