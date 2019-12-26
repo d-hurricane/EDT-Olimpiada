@@ -11,6 +11,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ТестированиеРазработчиков.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <forms uuid="3091940b-e757-4a1d-8262-a2cf52cfad6a">
     <name>Форма</name>
     <synonym>
@@ -29,4 +34,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="9e5188bd-60e1-42f6-ae3d-56ad9a6e24a5">
+    <name>НачальнаяСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная страница</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
 </mdclass:DataProcessor>

@@ -18,4 +18,6 @@
   <content>DataProcessor.ТестированиеРазработчиков</content>
   <content>Enum.СостоянияТестирования</content>
   <content>CommonPicture.Ожидание</content>
+  <content>CommonPicture.Пример1</content>
+  <content>CommonPicture.Пример2</content>
 </mdclass:Subsystem>

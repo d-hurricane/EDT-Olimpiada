@@ -33,6 +33,8 @@
   <subsystems>Subsystem.Олимпиада</subsystems>
   <commonPictures>CommonPicture.СтатусыОтветов</commonPictures>
   <commonPictures>CommonPicture.Ожидание</commonPictures>
+  <commonPictures>CommonPicture.Пример1</commonPictures>
+  <commonPictures>CommonPicture.Пример2</commonPictures>
   <roles>Role.Организатор</roles>
   <roles>Role.Участник</roles>
   <commonModules>CommonModule.ФорматированиеКода</commonModules>
