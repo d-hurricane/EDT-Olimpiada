@@ -363,53 +363,6 @@
             </borderColor>
           </extInfo>
         </items>
-        <items xsi:type="form:Decoration">
-          <name>ДекорацияИнструкция</name>
-          <id>224</id>
-          <title>
-            <key>ru</key>
-            <value>Перед Вами тест, содержащий несколько необычных вопросов на знание работы встроенного языка платформы 1С.
-
-Каждый вопрос представлен &lt;b>текстом модуля&lt;/> исполняемой подпрограммы. Логическим завершением подпрограммы выступает &lt;b>сообщение пользователю&lt;/> с результатами ее выполнения. Вам будут предложены несколько вариантов возможных сообщений, среди которых необходимо найти правильный.
-
-В некоторых случаях представленная подпрограмма может завершаться сообщением о програмной &lt;b>ошибке&lt;/>. Такой вариант также предусмотрет среди ответов. При выборе данного варианта рекомендуется заполнить дополнительное поле &lt;b>комментария&lt;/>, располагаемое ниже. Укажите, в чем именно заключается ошибка, заложенная в подпрограмме вопроса. В случае спорных вопросов &lt;b>преимущество&lt;/> получат те из участников тестирования, чей комментарий сформулирован точнее.</value>
-          </title>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ДекорацияИнструкцияРасширеннаяПодсказка</name>
-            <id>226</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДекорацияИнструкцияКонтекстноеМеню</name>
-            <id>225</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <formatted>true</formatted>
-          <type>Label</type>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1174,7 +1127,7 @@
                   <id>182</id>
                   <title>
                     <key>ru</key>
-                    <value>Дважды кликните по вопросу, чтобы просмотреть его содержимое.</value>
+                    <value>Дважды кликните по вопросу, чтобы просмотреть его содержимое (программный код).</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2072,7 +2025,7 @@
               <id>269</id>
               <title>
                 <key>ru</key>
-                <value>Дождитесь, пока все остальные участники завершат работу...</value>
+                <value>Таблица результатов будет открыта автоматически. Дождитесь, пока все остальные участники завершат работу...</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
