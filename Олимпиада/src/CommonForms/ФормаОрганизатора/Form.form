@@ -105,16 +105,20 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>InformationRegisterУчастникиCommandПечатьПаролей</name>
-      <id>23</id>
+      <name>InformationRegisterУчастникиCommandСброситьПаролиУчастникам</name>
+      <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Сбросить пароли</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>InformationRegisterУчастникиCommandПечатьПаролейРасширеннаяПодсказка</name>
-        <id>24</id>
+        <name>InformationRegisterУчастникиCommandСброситьПаролиУчастникамРасширеннаяПодсказка</name>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -128,7 +132,7 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>InformationRegister.Участники.Command.ПечатьПаролей</commandName>
+      <commandName>InformationRegister.Участники.Command.СброситьПаролиУчастникам</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

@@ -71,9 +71,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.Пароль</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ПолеРасширеннаяПодсказка2</name>
       <id>18</id>
@@ -99,7 +96,6 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <warningOnEdit>
       <key>ru</key>
       <value>Вы уверены, что хотите изменить пароль?</value>
@@ -108,14 +104,6 @@
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>СостояниеТестирования</name>

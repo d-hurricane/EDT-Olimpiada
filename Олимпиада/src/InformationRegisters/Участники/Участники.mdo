@@ -18,21 +18,6 @@
   <defaultRecordForm>InformationRegister.Участники.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Участники.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="dcd8c33b-20dc-420c-b250-d02d28687bbf">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>32</length>
-      </stringQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </resources>
   <resources uuid="d34bebb1-83b2-4a85-9afa-9ab86f6d0960">
     <name>СостояниеТестирования</name>
     <synonym>
@@ -125,11 +110,11 @@
     <group>ActionsPanelTools</group>
     <representation>Auto</representation>
   </commands>
-  <commands uuid="81c0e394-f2d3-4ff0-86eb-e097efa1c956">
-    <name>ПечатьПаролей</name>
+  <commands uuid="2dfdb10b-59fe-4058-9b63-2d48ffa5ea49">
+    <name>СброситьПаролиУчастникам</name>
     <synonym>
       <key>ru</key>
-      <value>Печать паролей</value>
+      <value>Сбросить пароли участникам</value>
     </synonym>
     <group>ActionsPanelTools</group>
     <representation>Auto</representation>

@@ -20,4 +20,5 @@
   <content>CommonPicture.Ожидание</content>
   <content>CommonPicture.Пример1</content>
   <content>CommonPicture.Пример2</content>
+  <content>CommonModule.ФорматированиеКода</content>
 </mdclass:Subsystem>
