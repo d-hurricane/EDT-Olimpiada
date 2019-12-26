@@ -32,12 +32,15 @@
   </languages>
   <subsystems>Subsystem.Олимпиада</subsystems>
   <commonPictures>CommonPicture.СтатусыОтветов</commonPictures>
+  <commonPictures>CommonPicture.Ожидание</commonPictures>
   <roles>Role.Организатор</roles>
   <roles>Role.Участник</roles>
   <commonModules>CommonModule.ФорматированиеКода</commonModules>
   <commonForms>CommonForm.ФормаОрганизатора</commonForms>
   <catalogs>Catalog.ВопросыКОлимпиаде</catalogs>
+  <enums>Enum.СостоянияТестирования</enums>
   <reports>Report.РезультатыОлимпиады</reports>
   <dataProcessors>DataProcessor.ТестированиеРазработчиков</dataProcessors>
   <informationRegisters>InformationRegister.Результаты</informationRegisters>
+  <informationRegisters>InformationRegister.Участники</informationRegisters>
 </mdclass:Configuration>

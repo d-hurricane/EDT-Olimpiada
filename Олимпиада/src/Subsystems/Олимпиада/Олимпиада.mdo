@@ -14,4 +14,8 @@
   <content>Report.РезультатыОлимпиады</content>
   <content>CommonForm.ФормаОрганизатора</content>
   <content>CommonPicture.СтатусыОтветов</content>
+  <content>InformationRegister.Участники</content>
+  <content>DataProcessor.ТестированиеРазработчиков</content>
+  <content>Enum.СостоянияТестирования</content>
+  <content>CommonPicture.Ожидание</content>
 </mdclass:Subsystem>

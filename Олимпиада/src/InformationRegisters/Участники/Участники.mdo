@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a0a53ff-0cec-40df-9110-6d67321bf643">
+  <producedTypes>
+    <selectionType typeId="d9236078-a6b2-46f2-bd96-cc276ef237f3" valueTypeId="984873c3-ffd5-4d9f-83ab-503b44006a90"/>
+    <listType typeId="78806f4a-aa5b-42b1-a321-c47bb2ace6f5" valueTypeId="c5655410-1ddd-4e23-9a5e-2ee0f8bd1402"/>
+    <managerType typeId="69dd162a-4656-423d-870a-0e995e7d6676" valueTypeId="7b891b15-429f-4807-90e2-25a095414a36"/>
+    <recordSetType typeId="e59b03e9-a80e-4f61-a4d3-aadd53e48888" valueTypeId="0bdaa6d9-7f4a-4b92-8b10-eec1781a7d3f"/>
+    <recordKeyType typeId="1277ab2d-4f42-464c-b42a-72995c56229d" valueTypeId="93cd42bf-9986-44a5-9716-cbd2d7f75d56"/>
+    <recordType typeId="a22742b8-cffa-4e72-b3f9-cf35c6d3246b" valueTypeId="9a2a2ee7-5863-4a36-b89c-f5e505d58cbf"/>
+    <recordManagerType typeId="d67710f8-bbf9-47e6-92b3-c4bfe55cb7ec" valueTypeId="a0d0d8c9-7702-4586-a6cd-581a5023d0b2"/>
+  </producedTypes>
+  <name>Участники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.Участники.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Участники.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dcd8c33b-20dc-420c-b250-d02d28687bbf">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="d34bebb1-83b2-4a85-9afa-9ab86f6d0960">
+    <name>СостояниеТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние тестирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияТестирования</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СостоянияТестирования.EnumValue.ВПодгототвке</value>
+    </fillValue>
+  </resources>
+  <resources uuid="2a30dd12-7cd1-4c94-af81-41b139ac2519">
+    <name>Инкогнито</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инкогнито</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="7c3bde68-d676-446f-8324-b40a61183a0d">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="d5517c68-8ed9-4eb2-9876-bdd4f52f6fea">
+    <name>ИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dd59a246-4343-4f88-8256-4f43c168b63a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d750d35-8ad7-4cbd-960b-60abc331a56f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b7fe1a7d-14d3-4102-8e2e-a22d054a9dc9">
+    <name>ЗаполнитьСписокУчастников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить список участников</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="13dbae2c-7429-464e-b326-b779bf36a7c1">
+    <name>СгенерироватьПаролиУчастникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сгенерировать пароли участникам</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="81c0e394-f2d3-4ff0-86eb-e097efa1c956">
+    <name>ПечатьПаролей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать паролей</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>
