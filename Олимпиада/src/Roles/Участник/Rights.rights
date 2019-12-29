@@ -289,4 +289,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Constant.ВремяОтведенноеНаТест</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

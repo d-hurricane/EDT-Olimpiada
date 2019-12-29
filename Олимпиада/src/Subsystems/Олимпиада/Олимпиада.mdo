@@ -24,4 +24,6 @@
   <content>Catalog.Пользователи</content>
   <content>CommonPicture.Предупреждение</content>
   <content>SessionParameter.ТекущийПользователь</content>
+  <content>CommonCommand.ИзменитьВремяОтведенноеНаТест</content>
+  <content>Constant.ВремяОтведенноеНаТест</content>
 </mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6420d4c6-0123-44d4-bb96-5381e9e5f75f">
+  <producedTypes>
+    <managerType typeId="78eab596-4a1b-4235-92b6-8d2b0f8ce9ed" valueTypeId="69ef0f33-5090-42af-a41a-d85f627de081"/>
+    <valueManagerType typeId="46c65129-9edc-407d-a14f-f89e6b97711f" valueTypeId="0ef48089-5c7e-4bb8-9939-16bdc6e2f707"/>
+    <valueKeyType typeId="af06e6df-5155-4929-a827-c7d762f4349f" valueTypeId="478f412c-80e9-4b41-81b2-b1bbab2051a1"/>
+  </producedTypes>
+  <name>ВремяОтведенноеНаТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время отведенное на тест, мин.</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

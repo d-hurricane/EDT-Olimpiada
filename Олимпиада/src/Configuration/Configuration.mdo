@@ -40,6 +40,8 @@
   <roles>Role.Организатор</roles>
   <roles>Role.Участник</roles>
   <commonModules>CommonModule.ФорматированиеКода</commonModules>
+  <commonCommands>CommonCommand.ИзменитьВремяОтведенноеНаТест</commonCommands>
+  <constants>Constant.ВремяОтведенноеНаТест</constants>
   <commonForms>CommonForm.ФормаОрганизатора</commonForms>
   <catalogs>Catalog.ВопросыКОлимпиаде</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>

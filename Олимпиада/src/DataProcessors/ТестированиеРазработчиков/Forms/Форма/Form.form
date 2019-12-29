@@ -636,6 +636,58 @@
             <currentRowUse>DontUse</currentRowUse>
           </extInfo>
         </items>
+        <items xsi:type="form:FormField">
+          <name>ОставшеесяВремя</name>
+          <id>342</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОставшеесяВремя</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <toolTipRepresentation>ShowTop</toolTipRepresentation>
+          <extendedTooltip>
+            <name>ПолеРасширеннаяПодсказка8</name>
+            <id>344</id>
+            <title>
+              <key>ru</key>
+              <value>Осталось времени:</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПолеКонтекстноеМеню8</name>
+            <id>343</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4598,6 +4650,24 @@
     <id>41</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОставшеесяВремя</name>
+    <title>
+      <key>ru</key>
+      <value>Оставшееся время</value>
+    </title>
+    <id>43</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
