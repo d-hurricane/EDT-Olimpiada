@@ -51,10 +51,10 @@
     <dataHistory>Use</dataHistory>
   </resources>
   <attributes uuid="95705c26-fcd7-48d1-bde9-d4c2e50ec97e">
-    <name>ИмяПользователя</name>
+    <name>УдалитьИмяПользователя</name>
     <synonym>
       <key>ru</key>
-      <value>Имя пользователя</value>
+      <value>(не использовать) имя пользователя</value>
     </synonym>
     <type>
       <types>String</types>
@@ -116,20 +116,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <dimensions uuid="452c1b1a-cfa1-45e6-954c-64966a4840fb">
-    <name>ИдентификаторПользователя</name>
+  <dimensions uuid="ea71e3b5-fe4a-4c39-b3f1-a96cbb7c3e6b">
+    <name>Участник</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор пользователя</value>
+      <value>Участник</value>
     </synonym>
     <type>
-      <types>UUID</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="77b46bc0-ecd7-4d7a-aea3-7115611835f3">
@@ -140,6 +137,22 @@
     </synonym>
     <type>
       <types>CatalogRef.ВопросыКОлимпиаде</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="452c1b1a-cfa1-45e6-954c-64966a4840fb">
+    <name>УдалитьИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не использовать) идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
