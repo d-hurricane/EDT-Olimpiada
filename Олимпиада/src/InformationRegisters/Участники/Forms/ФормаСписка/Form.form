@@ -52,19 +52,15 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ИмяПользователя</name>
+      <name>Участник</name>
       <id>19</id>
-      <title>
-        <key>ru</key>
-        <value>Пользователь</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ИмяПользователя</segments>
+        <segments>Список.Участник</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяПользователяРасширеннаяПодсказка</name>

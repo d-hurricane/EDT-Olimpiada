@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Пользователь</name>
-    <id>7</id>
-    <title>
-      <key>ru</key>
-      <value>Участник</value>
-    </title>
+    <name>Участник</name>
+    <id>19</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Пользователь</segments>
+      <segments>Запись.Участник</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ПользовательПриИзменении</name>
-    </handlers>
     <extendedTooltip>
-      <name>РасширеннаяПодсказка</name>
-      <id>9</id>
+      <name>ПолеРасширеннаяПодсказка3</name>
+      <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -35,8 +27,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КонтекстноеМеню</name>
-      <id>8</id>
+      <name>ПолеКонтекстноеМеню3</name>
+      <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -53,57 +45,10 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <listChoiceMode>true</listChoiceMode>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>СгенерированныйПароль</name>
-    <id>16</id>
-    <title>
-      <key>ru</key>
-      <value>Пароль</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ПолеРасширеннаяПодсказка2</name>
-      <id>18</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ПолеКонтекстноеМеню2</name>
-      <id>17</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <warningOnEdit>
-      <key>ru</key>
-      <value>Вы уверены, что хотите изменить пароль?</value>
-    </warningOnEdit>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
   </items>
   <items xsi:type="form:FormField">
     <name>СостояниеТестирования</name>
@@ -213,10 +158,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -239,26 +180,6 @@
       <common>true</common>
     </edit>
     <main>true</main>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>Пользователь</name>
-    <title>
-      <key>ru</key>
-      <value>Пользователь</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <fillChecking>ShowError</fillChecking>
     <savedData>true</savedData>
   </attributes>
   <commandInterface>

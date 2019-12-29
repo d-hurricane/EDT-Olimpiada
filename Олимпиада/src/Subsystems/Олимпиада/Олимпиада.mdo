@@ -21,4 +21,7 @@
   <content>CommonPicture.Пример1</content>
   <content>CommonPicture.Пример2</content>
   <content>CommonModule.ФорматированиеКода</content>
+  <content>Catalog.Пользователи</content>
+  <content>CommonPicture.Предупреждение</content>
+  <content>SessionParameter.ТекущийПользователь</content>
 </mdclass:Subsystem>

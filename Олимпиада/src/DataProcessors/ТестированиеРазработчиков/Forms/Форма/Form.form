@@ -1357,12 +1357,8 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СводнаяТаблицаРезультатовИмяПользователя</name>
+                <name>СводнаяТаблицаРезультатовУчастник</name>
                 <id>313</id>
-                <title>
-                  <key>ru</key>
-                  <value>Пользователь</value>
-                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1371,10 +1367,10 @@
                 <dataPath xsi:type="form:MultiLanguageDataPath">
                   <activeLanguage>1</activeLanguage>
                   <paths xsi:type="form:DataPath">
-                    <segments>СводнаяТаблицаРезультатов.ИмяПользователя</segments>
+                    <segments>СводнаяТаблицаРезультатов.Участник</segments>
                   </paths>
                   <paths xsi:type="form:DataPath">
-                    <segments>СводнаяТаблицаРезультатов.ИмяПользователя</segments>
+                    <segments>СводнаяТаблицаРезультатов.Участник</segments>
                   </paths>
                 </dataPath>
                 <extendedTooltip>
@@ -4330,24 +4326,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ИмяТекущегоПользователя</name>
-    <title>
-      <key>ru</key>
-      <value>Имя текущего пользователя</value>
-    </title>
-    <id>14</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>МоментПереходаКВопросу</name>
     <title>
       <key>ru</key>
@@ -4442,15 +4420,14 @@
       </edit>
     </columns>
     <columns>
-      <name>ИмяПользователя</name>
+      <name>Участник</name>
       <title>
         <key>ru</key>
-        <value>Имя пользователя</value>
+        <value>Участник</value>
       </title>
       <id>28</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef.Пользователи</types>
       </valueType>
       <view>
         <common>true</common>
@@ -4531,23 +4508,6 @@
         <numberQualifiers>
           <precision>15</precision>
         </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ИдентификаторПользователя</name>
-      <title>
-        <key>ru</key>
-        <value>Идентификатор пользователя</value>
-      </title>
-      <id>34</id>
-      <valueType>
-        <types>UUID</types>
       </valueType>
       <view>
         <common>true</common>
