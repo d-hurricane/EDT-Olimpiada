@@ -46,21 +46,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
-  <attributes uuid="7c3bde68-d676-446f-8324-b40a61183a0d">
-    <name>УдалитьИмяПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не использовать) имя пользователя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>75</length>
-      </stringQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <dimensions uuid="ba434e0a-9b49-4c75-a6ad-6d05a771ec8f">
     <name>Участник</name>
     <synonym>
@@ -69,19 +54,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="d5517c68-8ed9-4eb2-9876-bdd4f52f6fea">
-    <name>УдалитьИдентификаторПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не использовать) идентификатор пользователя</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

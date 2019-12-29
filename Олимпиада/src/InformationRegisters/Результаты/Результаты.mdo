@@ -50,26 +50,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
-  <attributes uuid="95705c26-fcd7-48d1-bde9-d4c2e50ec97e">
-    <name>УдалитьИмяПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не использовать) имя пользователя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>80</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-  </attributes>
   <attributes uuid="e9a769a9-c299-441b-8a48-519e1851b3fa">
     <name>ТекстОтвета</name>
     <synonym>
@@ -137,22 +117,6 @@
     </synonym>
     <type>
       <types>CatalogRef.ВопросыКОлимпиаде</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="452c1b1a-cfa1-45e6-954c-64966a4840fb">
-    <name>УдалитьИдентификаторПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не использовать) идентификатор пользователя</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
