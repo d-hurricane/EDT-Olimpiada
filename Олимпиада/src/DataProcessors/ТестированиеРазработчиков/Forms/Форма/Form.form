@@ -3952,26 +3952,6 @@
       </edit>
     </columns>
     <columns>
-      <name>НомерРубрики</name>
-      <title>
-        <key>ru</key>
-        <value>Номер рубрики</value>
-      </title>
-      <id>23</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>НомерВопроса</name>
       <title>
         <key>ru</key>
@@ -4104,7 +4084,7 @@
       <valueType>
         <types>Number</types>
         <numberQualifiers>
-          <precision>5</precision>
+          <precision>15</precision>
         </numberQualifiers>
       </valueType>
       <view>
@@ -4473,23 +4453,6 @@
         <common>true</common>
       </edit>
     </columns>
-  </attributes>
-  <attributes>
-    <name>ТекущийПользователь</name>
-    <title>
-      <key>ru</key>
-      <value>Текущий пользователь</value>
-    </title>
-    <id>35</id>
-    <valueType>
-      <types>UUID</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ТекстНачальнойСтраницы</name>
