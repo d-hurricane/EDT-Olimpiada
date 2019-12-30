@@ -1055,7 +1055,7 @@
                 </autoCommandBar>
                 <handlers>
                   <event>Selection</event>
-                  <name>ТаблицаВопросовВыбор</name>
+                  <name>ТаблицаРезультатовВыбор</name>
                 </handlers>
                 <searchStringAddition>
                   <visible>true</visible>
@@ -4013,7 +4013,7 @@
     </title>
     <id>6</id>
     <valueType>
-      <types>ValueTree</types>
+      <types>ValueTable</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4180,81 +4180,6 @@
       <id>15</id>
       <valueType>
         <types>CatalogRef.ВопросыКОлимпиаде</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ТекстВыбранногоОтвета</name>
-      <title>
-        <key>ru</key>
-        <value>Текст выбранного ответа</value>
-      </title>
-      <id>20</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ТекстПравильногоОтвета</name>
-      <title>
-        <key>ru</key>
-        <value>Текст правильного ответа</value>
-      </title>
-      <id>21</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ВремыОтветаВСекундах</name>
-      <title>
-        <key>ru</key>
-        <value>Времы ответа в секундах</value>
-      </title>
-      <id>22</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>11</precision>
-          <scale>1</scale>
-        </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Комментарий</name>
-      <title>
-        <key>ru</key>
-        <value>Комментарий</value>
-      </title>
-      <id>39</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
