@@ -840,30 +840,24 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>ТаблицаВопросов</segments>
+                  <segments>ТаблицаРезультатов</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <toolTipRepresentation>ShowTop</toolTipRepresentation>
                 <items xsi:type="form:FormField">
-                  <name>ТаблицаРезультатовЗаголовок</name>
-                  <id>192</id>
-                  <title>
-                    <key>ru</key>
-                    <value>Вопрос</value>
-                  </title>
+                  <name>ТаблицаРезультатовВопрос</name>
+                  <id>345</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ТаблицаВопросов.Заголовок</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТаблицаРезультатов.Вопрос</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаВопросовТемаРасширеннаяПодсказка</name>
-                    <id>194</id>
+                    <name>ПолеРасширеннаяПодсказка9</name>
+                    <id>347</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -877,8 +871,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ТаблицаВопросовТемаКонтекстноеМеню</name>
-                    <id>193</id>
+                    <name>ПолеКонтекстноеМеню9</name>
+                    <id>346</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -887,7 +881,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>LabelField</type>
-                  <editMode>EnterOnInput</editMode>
+                  <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
@@ -897,11 +891,11 @@
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>ТаблицаРезультатовОтвет</name>
-                  <id>201</id>
+                  <name>ТаблицаРезультатовВыбранныйОтвет</name>
+                  <id>348</id>
                   <title>
                     <key>ru</key>
-                    <value>Ответ</value>
+                    <value>Дан ответ</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -909,11 +903,11 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:DataPath">
-                    <segments>ТаблицаВопросов.ТекстВыбранногоОтвета</segments>
+                    <segments>ТаблицаРезультатов.ВыбранныйОтвет</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаВопросовВыбранныйОтветРасширеннаяПодсказка</name>
-                    <id>203</id>
+                    <name>ПолеРасширеннаяПодсказка10</name>
+                    <id>350</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -927,8 +921,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ТаблицаВопросовВыбранныйОтветКонтекстноеМеню</name>
-                    <id>202</id>
+                    <name>ПолеКонтекстноеМеню10</name>
+                    <id>349</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -937,18 +931,19 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>LabelField</type>
-                  <editMode>EnterOnInput</editMode>
+                  <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:LabelFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
                     <maxWidth>10</maxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
                   <name>ТаблицаРезультатовПравильныйОтвет</name>
-                  <id>213</id>
+                  <id>351</id>
                   <title>
                     <key>ru</key>
                     <value>Правильный</value>
@@ -959,11 +954,11 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:DataPath">
-                    <segments>ТаблицаВопросов.ТекстПравильногоОтвета</segments>
+                    <segments>ТаблицаРезультатов.ПравильныйОтвет</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаВопросовПравильныйОтветРасширеннаяПодсказка</name>
-                    <id>215</id>
+                    <name>ПолеРасширеннаяПодсказка11</name>
+                    <id>353</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -977,8 +972,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ТаблицаВопросовПравильныйОтветКонтекстноеМеню</name>
-                    <id>214</id>
+                    <name>ПолеКонтекстноеМеню11</name>
+                    <id>352</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -987,21 +982,22 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>LabelField</type>
-                  <editMode>EnterOnInput</editMode>
+                  <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:LabelFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
                     <maxWidth>10</maxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>ТаблицаРезультатовВремяОтвета</name>
-                  <id>207</id>
+                  <name>ТаблицаРезультатовВремя</name>
+                  <id>354</id>
                   <title>
                     <key>ru</key>
-                    <value>Время, сек.</value>
+                    <value>Время, сек</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1009,11 +1005,11 @@
                     <common>true</common>
                   </userVisible>
                   <dataPath xsi:type="form:DataPath">
-                    <segments>ТаблицаВопросов.ВремыОтветаВСекундах</segments>
+                    <segments>ТаблицаРезультатов.Время</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаВопросовВремяОтветаРасширеннаяПодсказка</name>
-                    <id>209</id>
+                    <name>ПолеРасширеннаяПодсказка12</name>
+                    <id>356</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1027,8 +1023,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ТаблицаВопросовВремяОтветаКонтекстноеМеню</name>
-                    <id>208</id>
+                    <name>ПолеКонтекстноеМеню12</name>
+                    <id>355</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1037,11 +1033,12 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>LabelField</type>
-                  <editMode>EnterOnInput</editMode>
+                  <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:LabelFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
                     <maxWidth>10</maxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                   </extInfo>
@@ -1223,7 +1220,7 @@
                 <enableDrag>true</enableDrag>
                 <fileDragMode>AsFileRef</fileDragMode>
                 <rowPictureDataPath xsi:type="form:DataPath">
-                  <segments>ТаблицаВопросов.Статус</segments>
+                  <segments>ТаблицаРезультатов.Статус</segments>
                 </rowPictureDataPath>
                 <rowsPicture xsi:type="core:PictureRef">
                   <picture>CommonPicture.СтатусыОтветов</picture>
@@ -1239,8 +1236,14 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Элементы.ТаблицаРезультатов.ТекущиеДанные.Комментарий</segments>
+                  <segments>Items.ТаблицаРезультатов.CurrentData.Комментарий</segments>
                 </dataPath>
+                <titleLocation>None</titleLocation>
+                <toolTip>
+                  <key>ru</key>
+                  <value>Комментарий</value>
+                </toolTip>
+                <toolTipRepresentation>ShowTop</toolTipRepresentation>
                 <extendedTooltip>
                   <name>ПолеРасширеннаяПодсказка6</name>
                   <id>335</id>
@@ -4112,26 +4115,6 @@
       </edit>
     </columns>
     <columns>
-      <name>Статус</name>
-      <title>
-        <key>ru</key>
-        <value>Статус</value>
-      </title>
-      <id>7</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-        </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>ПравильныйОтвет</name>
       <title>
         <key>ru</key>
@@ -4329,46 +4312,6 @@
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КоличествоПропущенныхВопросов</name>
-    <title>
-      <key>ru</key>
-      <value>Количество пропущенных вопросов</value>
-    </title>
-    <id>12</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КоличествоПравильныхОтветов</name>
-    <title>
-      <key>ru</key>
-      <value>Количество правильных ответов</value>
-    </title>
-    <id>13</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -4675,6 +4618,153 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаРезультатов</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица результатов</value>
+    </title>
+    <id>44</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Вопрос</name>
+      <title>
+        <key>ru</key>
+        <value>Вопрос</value>
+      </title>
+      <id>46</id>
+      <valueType>
+        <types>CatalogRef.ВопросыКОлимпиаде</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВыбранныйОтвет</name>
+      <title>
+        <key>ru</key>
+        <value>Выбранный ответ</value>
+      </title>
+      <id>47</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПравильныйОтвет</name>
+      <title>
+        <key>ru</key>
+        <value>Правильный ответ</value>
+      </title>
+      <id>48</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Статус</name>
+      <title>
+        <key>ru</key>
+        <value>Статус</value>
+      </title>
+      <id>49</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Время</name>
+      <title>
+        <key>ru</key>
+        <value>Время</value>
+      </title>
+      <id>50</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>11</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЭтоГруппа</name>
+      <title>
+        <key>ru</key>
+        <value>Это группа</value>
+      </title>
+      <id>52</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Комментарий</name>
+      <title>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </title>
+      <id>53</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>КомандаДалее</name>
